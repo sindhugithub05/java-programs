@@ -86,5 +86,45 @@ public static void main(String[] args) {
 	{
 		System.out.println("it is not prime");
 	}
-		
+
+ # asci value
+ package arrays;
+
+ public class Asci {
+     public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int ascii[]= {90,63,64,111,118,101,32,93};
+		for(int i=0;i<ascii.length;i++)
+		{
+			System.out.println((char)ascii[i]+" ");
+		}
+        System.out.println();
+	}
+
+}
+
+# search an element
+package arrays;
+
+public class Check {
+	public static void main(String[] args)
+	{
+		int x[]= {10,20,30,40,50};
+		int needed=30;
+		int index=-1;
+		for(int i=0;i<x.length;i++) {
+			if(x[i]==needed)
+			{
+				System.out.println( "3");
+				index=index+1;
+			}
+			else
+			{
+				System.out.println(" -1");
+			}
+			
+		}
+	}
+
+}
 
