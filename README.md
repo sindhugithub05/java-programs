@@ -28,8 +28,7 @@ class Student
 package exceptions;
 import java.util.Scanner;
 public class Ex1 {
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	   try
 	   {
@@ -61,7 +60,7 @@ class sindhuException extends Exception
 		super(str);
 	}
 }
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #prime number
 import java.util.Scanner;
 public class P10 {
@@ -86,7 +85,7 @@ public static void main(String[] args) {
 	{
 		System.out.println("it is not prime");
 	}
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  # asci value
  package arrays;
 
@@ -102,7 +101,7 @@ public static void main(String[] args) {
 	}
 
 }
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # search an element
 package arrays;
 
@@ -127,4 +126,57 @@ public class Check {
 	}
 
 }
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# sorting element
+package arrays;
+import java.util.Arrays;
 
+public class Sorted {
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a []= new int[]{10,50,30,20,40};
+		Arrays.sort(a);
+		System.out.println("Elements of array sorted in ascending order:");
+		for(int i=0;i<a.length;i++) {
+			System.out.println(a[i]+" ");
+		}
+		
+
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# sum and average
+package arrays;
+
+public class Sum {
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x[]=new int[] {10,20,30};
+		int sum=0;
+		for(int i=0;i<x.length;i++) {
+			sum=sum+x[i];
+		}
+		System.out.println(sum);
+		float Average=0;
+		Average=sum/3;
+		System.out.println(Average);
+
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# maximum value
+package arrays;
+
+public class Max {
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]={10,20,30};
+		System.out.println(a[0]);
+		System.out.println(a[a.length-1]);
+		
+
+	}
+
+}
