@@ -242,3 +242,21 @@ public class BasicCalculator {
 	}
 }
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# array
+class Main {
+    public static void main(String[] args) {
+        int sum=0;
+        //int[] myarray=new int[5];
+        int[] myarray={1,5,12,4,6};
+        for(int i=0;i<myarray.length;i++)
+        {
+            myarray[i]=(i+1)*2;
+            if(myarray[i]%2==0){
+               sum=sum+myarray[i];
+               System.out.println(sum);
+            }
+            else
+                System.out.println("is not even");
+        }
+    }
+}
